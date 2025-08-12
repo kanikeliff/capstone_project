@@ -1,29 +1,5 @@
 #SpaceX api
-<p align="center"><img src="https://live.staticflickr.com/65535/49185149122_37f5c52e43_k.jpg"></p>
 
-<h1 align="center">SpaceX REST API</h1>
-
-<h3 align="center">
-Open Source REST API for launch, rocket, core, capsule, starlink, launchpad, and landing pad data.
-</h3>
-
-<p align="center">
-<a href="https://github.com/r-spacex/SpaceX-API/actions?query=workflow%3ATest"><img src="https://img.shields.io/github/workflow/status/r-spacex/SpaceX-API/Test?style=flat-square"></a>
-<a href="https://hub.docker.com/r/jakewmeyer/spacex-api/"><img src="https://img.shields.io/docker/pulls/jakewmeyer/spacex-api?style=flat-square"></a>
-<a href="https://github.com/r-spacex/SpaceX-API/releases"><img src="https://img.shields.io/github/release/r-spacex/SpaceX-API.svg?longCache=true&style=flat-square"></a>
-<a href="https://en.wikipedia.org/wiki/Representational_state_transfer"><img src="https://img.shields.io/badge/interface-REST-brightgreen.svg?longCache=true&style=flat-square"></a>
-</p>
-
-<h4 align="center">
-  <i>
-    We are not affiliated, associated, authorized, endorsed by, or in any way officially connected with Space Exploration Technologies Corp (SpaceX), or any of its subsidiaries or its affiliates. The names SpaceX as well as related names, marks, emblems and images are registered trademarks of their respective owners.
-  </i>
-</h4>
-
-<h3 align="center">
-<a href="docs/README.md">Docs</a> - <a href="docs/clients.md">API Clients</a> - <a href="docs/apps.md">Apps</a> - <a href="https://status.spacexdata.com">Status</a> - <a href="https://backups.spacexdata.com">Database Exports</a>
-<br/>
-</h3>
 
 ## Usage
 
@@ -120,39 +96,4 @@ GET https://api.spacexdata.com/v5/launches/latest
 }
 ```
 
-## Cron Job Status
 
-<p align="left">
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/zDDqPvw1-2/Capsules.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/iJIWcg9u-2/Cores.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/soA1Z2t1-2/Landpads.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/tc7aK4Iw-2/Launchpads.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/uB7PIyUo-2/Past-Launches.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/bQw1ZrmZ-2/Payloads.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/HhIoHcF6-2/Roadster.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/wPz7gFQJ-2/Starlink.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/3L5HxZKX-2/Upcoming-Launches.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/YvnZYkED-2/Webcast.svg">
-<br/>
-<img src="https://healthchecks.io/badge/a99e6369-9795-417e-9a1c-31ea91/_Z-lNpev-2/launch-library-v2.svg">
-</p>
-
-## Sponsors
-
-### [Studio 3T](https://studio3t.com/)
-
-[![Studio 3T](https://imgur.com/DbJSfAo.png)](https://studio3t.com/)
-
-## FAQ's
-
-* If you have any questions or corrections, please open an issue and we'll get it merged ASAP
-* For any other questions or concerns, just shoot me an email.
